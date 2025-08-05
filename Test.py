@@ -1,27 +1,3 @@
-##### Generate Data
-# import numpy as np
-# import pandas as pd
-# num_lines = 1000
-#
-# def generate_salary():
-#     salary = np.abs(np.round(np.random.uniform(600000, 1200000, 1))[0])
-#     # Ensure that the salary is a multiple of 100000
-#     salary = (salary // 100000) * 100000
-#     return salary
-#
-# data = {
-#     'perf1': np.abs(np.round(np.random.uniform(6, 10, num_lines), 2)),
-#     'perf2': np.abs(np.round(np.random.uniform(6, 10, num_lines), 2)),
-#     'perf3': np.abs(np.round(np.random.uniform(6, 10, num_lines), 2)),
-#     'salary': [generate_salary() for _ in range(num_lines)]
-# }
-#
-# df = pd.DataFrame(data)
-# df.head(800).to_csv('train_data.csv', index=True)
-# df.tail(200).to_csv('test_data.csv', index=True)
-
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
